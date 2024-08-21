@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Electronics_store" type="Application" factoryName="Application">
+    <envs>
+      <env name="PROD_DB_HOST" value="localhost" />
+      <env name="PROD_DB_NAME" value="electronic_store" />
+      <env name="PROD_DB_PORT" value="3306" />
+      <env name="PROD_DB_USERNAME" value="springstudent" />
+      <env name="PROD_DB_PASSWORD" value="springstudent" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="com.lg.electronic_store.ElectronicStoreApplication" />
+    <module name="electronic_store" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
