@@ -6,8 +6,8 @@
   },
   "servers": [
     {
-      "url": "https://api.example.com",
-      "description": "Production server (coming soon)"
+      "url": "https://electronicsstorespringboot-production.up.railway.app/",
+      "description": "Production server"
     },
     {
       "url": "http://localhost:8080",
