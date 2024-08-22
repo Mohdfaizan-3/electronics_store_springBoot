@@ -19,11 +19,6 @@ public class ProjectConfig {
     }
 
     @Bean
-    PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
-    }
-
-    @Bean
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
