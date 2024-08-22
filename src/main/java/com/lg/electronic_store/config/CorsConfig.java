@@ -15,7 +15,7 @@ public class CorsConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true);
 //        config.addAllowedOrigin("https://frontend-domain.com");
-        config.addAllowedOrigin("https://electronicsstorespringboot-production.up.railway.app");
+        config.addAllowedOrigin("https://electronicsstorespringboot-production.up.railway.app/");
         config.addAllowedHeader("*");
         config.addAllowedMethod("*");
         source.registerCorsConfiguration("/**", config);
